@@ -15,7 +15,6 @@ body {
 }
 .appbar {
   background-color: #d4fff8;
-  display: flex;
   align-items: center;
   padding: 8px;
 }
@@ -27,29 +26,34 @@ body {
 .logo__w {
   color: #e61414;
   font-family: vivaldi;
+  font-size: xx-large;
 }
 .logo__travels {
-  transform: translateX;
-  color: #214963;
+  color: #592E8A;
   font-family: playball;
+  font-size: xx-large;
 }
 .navigate {
-  margin-left: auto;
+margin-left: auto;
+display: flex;
 }
 .navigate__item {
-  color: rgb(15, 3, 68);
-  font-family: courgette;
+ font-family: playball;
+ margin: 5pt;
+ color: #592E8A;
 }
 .navigate__item:hover {
   text-decoration: underline;
 }
+
 h1 {
-padding: 9%;
+padding: 7%;
 background-image: url(https://d39l2hkdp2esp1.cloudfront.net/img/photo/191072/191072_00_2x.jpg);
 background-size: cover;
 font-family: playball;
 text-align: center;
-font-size:xx-large;
+font-size: 2.5em;
+color: #592E8A;
 }
 #footer {
   position:relative;
@@ -64,9 +68,9 @@ font-size:xx-large;
   align-items: center;
   padding: 10px;
 }
-.logo__2 {
+.logo__1 {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   display: flex;
   }
  .logo__2021{
@@ -75,11 +79,7 @@ font-size:xx-large;
  .navigate__1 {
    margin-left: auto;
  }
-}
 .navigate__item1 {
   font-family: playball;
  }
-
-
-
-
+ 

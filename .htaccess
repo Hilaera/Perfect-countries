@@ -1,0 +1,5 @@
+AddType font/ttf 				.ttf
+AddType font/eot 				.eot
+AddType font/otf 				.otf
+AddType x-font/woff 		.woff
+AddType font/woff2 			.woff2

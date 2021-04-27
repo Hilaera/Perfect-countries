@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Alex';
+  src:
+    url('AlexBrush-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}

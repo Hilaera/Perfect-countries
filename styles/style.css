@@ -1,0 +1,193 @@
+* {
+  margin: 0; padding: 0; text-decoration: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+body {
+  color: rgb(3, 10, 8);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.app {
+  background-color: #fcfcfc;
+}
+
+.appbar {
+  align-items: center;
+  padding: 8px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+}
+
+.logo__u {
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+
+.logo__travels {
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+
+.navigate {
+margin-left: auto;
+display: flex;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.navigate__item {
+ margin: 5pt;
+ color: #ffffff;
+}
+
+.navigate__item:hover {
+  text-decoration: underline;
+}
+
+h1 {
+/* padding: 20%;
+background-image: url(/images/P_Ukraine.jpg);
+background-size: cover;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+font-size: 2.5em;
+color: #fafafa; */
+}
+
+
+
+
+#footer {
+  position:relative;
+  left: 0%;
+  bottom: 0%;
+  padding: 0px;
+  width: 100%;
+  font-weight:normal;
+}
+
+.appbar1 {
+  background-color: #d4fff8;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo__1 {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+}
+
+.logo-2021{
+  font-family: playball;
+}
+
+.navigate__1 {
+  margin-left: auto;
+}
+
+.navigate__item1 {
+  font-family: playball;
+}
+
+.container {
+  padding: 12px;
+  position: relative;
+  overflow: hidden;
+  max-width: 1480px;
+  margin: 0 auto;
+}
+
+.first-step {
+  display: flex;
+}
+
+.inform {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.inform__row {
+  display: flex;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}
+
+.inform__next-rows {
+  margin-top: 18px;
+}
+
+.inform__col {
+  padding: 0 15px;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.inform__card {
+  padding: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0, .15 );
+  border-radius: 8px;
+  transition: .3s;
+}
+
+.inform__card:hover {
+  transform: scale(1.02);
+}
+
+.inform__card-bg-img {
+  background-size: cover;
+  min-height: 320px;
+}
+
+.inform__card-text {
+  padding: 12px;
+  background-color: rgba(0,0,0, .5);
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+}
+
+.inform__card-title {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.inform__card-paragraph {
+  margin-top: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

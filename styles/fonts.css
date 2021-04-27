@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Vivaldi';
+  src:
+    /* local('Vivaldi Italic'), */
+    url('fonts/vivaldi/vivaldi-script.ttf') format('truetype'),
+    url('fonts/vivaldi/vivaldi-script.eot') format('eot'),
+    url('fonts/vivaldi/vivaldi-script.otf') format('otf'),
+    url('fonts/vivaldi/vivaldi-script.svg') format('svg'),
+    url('fonts/vivaldi/vivaldi-script.woff2') format('woff2'),
+    url('fonts/vivaldi/vivaldi-script.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}

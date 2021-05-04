@@ -1,6 +1,7 @@
 * {
   margin: 0; padding: 0; text-decoration: none;
   box-sizing: border-box;
+  outline: none;
 }
 
 img {
@@ -21,6 +22,7 @@ body {
   align-items: center;
   padding: 8px;
   position: absolute;
+  z-index: 100;
   left: 0px;
   right: 0px;
 }
@@ -44,9 +46,9 @@ body {
 }
 
 .navigate {
-margin-left: auto;
-display: flex;
-font-family: 'Times New Roman', Times, serif;
+  margin-left: auto;
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .navigate__item {
@@ -58,15 +60,132 @@ font-family: 'Times New Roman', Times, serif;
   text-decoration: underline;
 }
 
-h1 {
-/* padding: 20%;
-background-image: url(/images/P_Ukraine.jpg);
-background-size: cover;
-font-family: 'Times New Roman', Times, serif;
-text-align: center;
-font-size: 2.5em;
-color: #fafafa; */
+
+
+
+.baner {
+  position: relative;
 }
+
+.baner__wrapper {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.baner__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+  font-size: 48px;
+  text-shadow: 0 0 2px rgba(0,0,0, .8);
+}
+
+.baner__btn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+  background-color: rgba(0,0,0, .15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+
+}
+
+.baner__btn:hover {
+  background-color: rgba(0,0,0, .30);
+}
+
+.baner__btn:focus {
+  box-shadow: 0 0 0 3px rgba(255,255,255,.6);
+}
+
+.baner__btn-prev {
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.baner__btn-next {
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.baner__steps {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+
+.baner__step {
+  width: 18px;
+  height: 18px;
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+}
+
+/*
+<div class="baner__step active">
+  <div class="baner__step-active"></div>
+</div>
+*/
+
+.baner__step.active .baner__step-active {
+  background-color: #fff;
+}
+
+.baner__step:not(:first-child) {
+  margin-left: 8px;
+}
+
+.baner__step-active {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+
+
+
+.news__blog {
+ /* overflow: hidden; */
+  width: 100%;
+  text-align: center;
+  display: flex;
+  background: #feffff;
+  padding: 18px;
+  margin-top: 48px;
+  box-shadow: 0 0 8px rgba(0,0,0, .15 );
+  border-radius: 8px;
+  transition: .3s;
+}
+.news__cont {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.news__blog-title {
+  font-size: 25px;
+}
+
 
 
 
@@ -109,8 +228,8 @@ color: #fafafa; */
   padding: 12px;
   position: relative;
   overflow: hidden;
-  max-width: 1480px;
   margin: 0 auto;
+  min-height: 100%;
 }
 
 .first-step {
